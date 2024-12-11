@@ -1,7 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 header img {
@@ -17,6 +15,9 @@ header .container-fluid {
     color: black;
 }
 
+.form-control::placeholder {
+    color: grey;
+  }
 
 /* regole di debug macro */
 
