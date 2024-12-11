@@ -19,6 +19,20 @@ header .container-fluid {
     color: grey;
   }
 
+  /* Rimuovi l'effetto blu di focus */
+.accordion-button:focus {
+    box-shadow: none; 
+}
+
+/* Cambia il colore del testo del bottone quando l'accordion è attivo (aperto) */
+.accordion-button:not(.collapsed) {
+    background-color: transparent; /* Cambia il colore di sfondo */
+    
+}
+
+
+
+
 /* regole di debug macro */
 
 /* main [class^='container'] {
