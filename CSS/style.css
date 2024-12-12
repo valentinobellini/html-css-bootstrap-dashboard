@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 header img {
     height: 40px;
 }
@@ -27,7 +31,10 @@ header .container-fluid {
 /* Cambia il colore del testo del bottone quando l'accordion è attivo (aperto) */
 .accordion-button:not(.collapsed) {
     background-color: transparent; /* Cambia il colore di sfondo */
-    
+}
+
+.accordion-body {
+    font-size: 14px;
 }
 
 
